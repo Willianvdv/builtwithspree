@@ -45,3 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'dotenv-rails'
+gem 'rails_admin'
+gem 'devise'
