@@ -1,1 +1,32 @@
-<h2>Webshops</h2>
+<% if @featured_webshop %>
+  <section class="l-full panel">
+    <h2>Spree webshop of the month</h2> 
+  </section>
+  <section class="l-half">
+    <h3><%= @featured_webshop.name %></h3>
+    <p><%= link_to @featured_webshop.url, @featured_webshop.url %></p>
+    
+    <h4>Builders</h4>
+    <p>BuildAWebshop.com</p>
+  </section>
+  <section class="l-half">
+    <img src="http://placekitten.com/g/500/200" />
+  </section>
+<% end %>
+
+<section class="l-full panel">
+  <h2>Other webshops</h2> 
+</section>
+
+<% @webshops.each do |webshop| %>
+  <section class="l-half">
+    <h3><%= webshop.name %></h3>
+    <p><%= link_to webshop.url, webshop.url %></p>
+
+    <h4>Builders</h4>
+    <p>BuildAWebshop.com</p>
+  </section>
+  <section class="l-half">
+    <img src="http://placekitten.com/g/500/200" />
+  </section>
+<% end %>
