@@ -1,0 +1,2 @@
+class WebshopsController < ApplicationController
+end
