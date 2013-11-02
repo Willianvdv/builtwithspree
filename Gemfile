@@ -47,3 +47,4 @@ end
 gem 'dotenv-rails'
 gem 'rails_admin'
 gem 'devise'
+gem 'annotate'
