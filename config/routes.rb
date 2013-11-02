@@ -3,5 +3,5 @@ Builtwithspree::Application.routes.draw do
   devise_for :users
   resources :webshops
 
-  root :to => "home#index"
+  root :to => "webshops#index"
 end
