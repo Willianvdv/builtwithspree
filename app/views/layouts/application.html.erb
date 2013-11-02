@@ -7,10 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+  <div class="l-container">
+    <header>
+      <h1>Built with Spree</h1>
 
-  <%= yield %>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </header>
 
+    <%= yield %>
+  </div>
 </body>
 </html>
