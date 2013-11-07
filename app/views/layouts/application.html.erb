@@ -11,11 +11,82 @@
     <header>
       <h1>Built with Spree</h1>
 
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
-    </header>
+      <ul class="messages">
+        <li class="notice"><%= notice %></li>
+        <li class="alert"><%= alert %></li>
+      </ul>
 
-    <%= yield %>
+      <p class="lead">As <strong>Spree commerce enthusiasts</strong> we've created an index containing webshops built with the Spree commeree platform</p>
+   
+    </header>
+  
+    <h2>Spree webshop of the month</h2>
+    <section class="l-full panel webshop-of-the-month">
+      
+        <section class="l-half">
+          <h3>Spreecommerce.com</h3>
+          <p>Home of the framework</p>
+          
+          <h4>Builders</h4>
+          <p>Spree commerce Ind.</p>
+        </section>
+
+        <section class="l-half">
+          <img src="http://placekitten.com/g/500/200" />
+        </section>
+    </section>
+
+    <section class="l-full webshop-of-the-month">
+      <h2>Webshops built with Spree commerce</h2>
+      
+      <section class="l-half">
+          <img src="http://placekitten.com/g/200/100" />
+      </section>
+
+
+        <section class="l-half">
+          <h3>Someotherawesomwebshop.com</h3>
+          <p>This is the description</p>
+          
+          <h4>Builders</h4>
+          <p>AwesomeCompany.com</p>
+        </section>
+      </section>
+
+
+      <section class="l-half">
+          <img src="http://placekitten.com/g/200/100" />
+      </section>
+
+      <section class="l-half">
+        <h3>Someotherawesomwebshop.com</h3>
+        <p>This is the description</p>
+        
+        <h4>Builders</h4>
+        <p>AwesomeCompany.com</p>
+      </section>
+
+        <%= yield %>
+        <ul class="pagination">
+            <li><a href="#">Previous</a></li>
+            <li class="is-selected"><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li class="gap">...</li>
+            <li><a href="#">11</a></li>
+            <li><a href="#">12</a></li>
+            <li><a href="#">Next</a></li>
+        </ul>
+    </section>
+
+    <footer>
+      <span><a href="http://www.reinaris.nl">Rein Aris</a> &amp; <a href="#">Willian</a>
+      <span>|</span>
+      <span>❤</span>
+      <span>Design done by our friends of <a href="http://www.studiowolf.com">Studiowolf</a></span>
+      <span>|</span>
+      <span>❤</span>
+      <span>Hosted by <a href="http://www.heroku.com">Heroku</a></span>
+    </footer>
   </div>
 </body>
 </html>
