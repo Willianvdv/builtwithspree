@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131102170949) do
+ActiveRecord::Schema.define(version: 20131107212520) do
 
   create_table "rails_admin_histories", force: true do |t|
     t.text     "message"
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20131102170949) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "featured"
   end
 
 end
