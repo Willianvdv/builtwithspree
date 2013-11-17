@@ -52,5 +52,5 @@ gem 'dotenv-rails'
 gem 'rails_admin'
 gem 'devise'
 gem 'annotate'
-
 gem 'taiga_on_rails', github: 'Willianvdv/taiga_on_rails'
+gem 'kaminari'
